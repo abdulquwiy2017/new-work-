@@ -1,0 +1,282 @@
+*::after::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(144, 100, 100);
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    color: whitesmoke;
+}
+
+.section{
+    padding: 3em;
+}
+@media (max-width:675px) {
+    .section{
+        padding: 0.5em;
+    }
+    
+}
+.black{
+    color: black;
+}
+.first-section{
+    background-color:rgb(210, 110, 16);
+    
+}
+.navigation
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width:900px) {
+    .navigation{
+        flex-direction: column;
+    }
+    
+}
+.nav-links{
+    display: flex;
+    margin:auto 0;
+}
+.links{
+    margin-right: 2em;
+}
+@media (max-width:675px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+
+    
+}
+/*first part*/
+/*header*/
+.header{
+    width: 50%;
+}
+.implore{
+    width: 6em;
+    padding: .5em;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    background-color: rgb(210, 110, 16);;
+}
+button.explore{
+   
+    width: 6em;
+    padding: .5em;
+    border-radius: 20px;
+    background-color: rgb(39, 35, 35);
+    color: whitesmoke;
+}
+.button{
+    margin: 2em;
+    margin-left: 0;
+}
+@media (max-width:675px) {
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+    .button{
+        margin: 0;
+        margin-top: 2em;
+    }
+    
+}
+
+/*flex-pictures*/
+.picture-on-wall{
+    display: flex;
+    width: 50%;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    
+}
+.detroit{
+    height: 6em;
+}
+.image-contain{
+    width: 20%;
+    margin-right: 1em;
+    margin-top: 2em;
+    
+}
+.images{
+    width: 100%;
+}
+
+.first-part{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:675px) {
+  
+    .first-part{
+        flex-direction: column;
+    }
+    .picture-on-wall{
+        width: 100%;
+        text-align: center;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    .image-contain{
+        width: 30%;
+    }
+    .images{
+        width: 100%;
+    }
+    
+    
+}
+
+/* chair */
+
+.chair{display: flex;
+    margin-right: 2em;
+    justify-content: right;
+}
+.absolute-chair{
+    width: 80%;
+    margin-bottom: -7em;   
+}
+@media (max-width:675px) {
+    .container{
+        width: 100%;
+    }
+   
+    
+}
+
+
+/* second partition */
+.second-section{
+    margin-top: 5em;
+}
+.header2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fundi{
+    width: 30%;
+}
+.arrow{
+
+    text-align: center;
+    width: 2em;
+    background-color: rgb(118, 102, 36);
+    color: whitesmoke;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 2em;
+}
+.flex-images{
+    display:flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.list-images{
+    width: 20%;
+    text-align: center;
+}
+.lister{
+    width: 100%;
+}
+.hover{
+    background-color: lightgrey;
+}
+
+.gold{
+    color: rgb(113, 65, 17);
+    font-weight: 900;
+}
+@media (max-width:675px) {
+    
+    .absolute-chair{
+        width: 90%;
+        height: 20vh;
+        margin-bottom: -3em;   
+    }
+    .header2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fundi{
+        width: 100%;
+        text-align: center;
+    }
+    .arrow{
+        visibility: hidden;
+    }
+    .flex-images{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .list-images{
+        width: 80%;
+        margin: auto;
+    }
+    .lister{
+        width: 100%;
+    }
+
+    
+}
+
+footer{
+    
+    background-color: grey;
+    color: white;
+    
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.contact-list{
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+    width: 30%;
+    
+}
+@media (max-width:675px) {
+    .contacts{
+        flex-direction: column;
+    }
+    .contact-list{
+        width: 80%;
+    }
+
+    
+}
+
+.company-representative{
+    margin: 2em o;
+}
+
+.email{
+    text-align: center;
+}
+
